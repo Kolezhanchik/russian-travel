@@ -22,24 +22,24 @@
 
 @media screen and (max-width: 768px) {
     .footer {
+       padding: 44px 0 22px;
+    }  
+}
+
+@media screen and (max-width: 680px) {
+    .footer {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-       flex-direction: column;
-       padding: 44px 0 22px;
+       flex-direction: column;        
     }  
 }
 
 @media screen and (max-width: 540px) {
     .footer {
+        padding: 32px 0 10px;
         -webkit-box-align: start;
         -ms-flex-align: start;
        align-items: flex-start;
-    }  
-}
-
-@media screen and (max-width: 320px) {
-    .footer {
-        padding: 32px 0 10px;
     }     
 } 

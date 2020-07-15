@@ -8,9 +8,19 @@
     background-size: cover;
     background-blend-mode: multiply;
     transition: background-color 3s;
+    display: block;
+    color: inherit;
+    text-decoration: none;
 }
 
 .cover__background:hover {
     background-color: rgba(0.42, 0.44, 0.47, 0.8);
     cursor: grab;   
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        
+        padding: 11% 0;
+    } 
 }

@@ -11,8 +11,3 @@
     -moz-text-size-adjust: 100%;
       text-rendering: optimizeLegibility;
 }
-
-linka {
-    color: inherit;
-    font-family: inherit;
-}

@@ -27,7 +27,7 @@
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
-        padding: 44px 0;
+        padding: 44px 24px;
     }    
 }
 
@@ -35,7 +35,7 @@
     .photo-grid {
         grid-template-columns: 1fr;
         grid-gap: 12px;
-        padding: 32px 0;
+        padding: 32px 16px;
     }    
 }
 
