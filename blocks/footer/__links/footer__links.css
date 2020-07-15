@@ -1,0 +1,17 @@
+.footer__links {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 540px) {
+    .footer__links {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    } 
+}

@@ -1,0 +1,16 @@
+.cover__background {
+    width: 100%;
+    padding: 18.9% 0;
+    background-image: url(../../../images/cover__background.jpg);
+    background-color: rgba(0.42, 0.44, 0.47, 0.3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: background-color 3s;
+}
+
+.cover__background:hover {
+    background-color: rgba(0.42, 0.44, 0.47, 0.8);
+    cursor: grab;   
+}
