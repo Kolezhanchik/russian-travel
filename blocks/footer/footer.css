@@ -12,22 +12,30 @@
     -webkit-box-pack: justify;
      -ms-flex-pack: justify;
     justify-content: space-between;
-    /* max-width: 1184px; */
-    max-width: 92.5%;
+    max-width: 1184px;
+    /* max-width: 92.5%; */
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;      
+    }  
+}
+
 @media screen and (max-width: 768px) {
     .footer {
+        max-width: 720px;
        padding: 44px 0 22px;
     }  
 }
 
 @media screen and (max-width: 680px) {
     .footer {
+        
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -37,7 +45,9 @@
 
 @media screen and (max-width: 540px) {
     .footer {
-        padding: 32px 0 10px;
+        max-width: 186px;
+        margin: 0;
+        padding: 32px 16px 10px;
         -webkit-box-align: start;
         -ms-flex-align: start;
        align-items: flex-start;
