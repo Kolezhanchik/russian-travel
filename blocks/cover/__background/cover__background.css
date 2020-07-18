@@ -19,8 +19,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover__background {
-        
+    .cover__background {        
         padding: 11% 0;
     } 
 }
