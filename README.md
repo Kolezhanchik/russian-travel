@@ -15,4 +15,4 @@ The project uses such HTML/CSS technologies as;
 7. Connecting third-party fonts
 
 
-ссылка на проект https://kolezhanchik.github.io/train-travel/index.html
+Link to the project web-page https://kolezhanchik.github.io/train-travel/index.html
